@@ -1,0 +1,404 @@
+[DEBUG]:
+[DEBUG]:        The necessary bits to build these optional modules were not found:
+[DEBUG]:        _bz2                  _dbm                  _gdbm
+[DEBUG]:        _lzma                 _tkinter              _uuid
+[DEBUG]:        readline
+[DEBUG]:        To find the necessary bits, look in setup.py in detect_modules() for the module's name.
+[DEBUG]:
+[DEBUG]:        running build_scripts
+[DEBUG]:        creating build/scripts-3.11
+[DEBUG]:        copying and adjusting /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/pydoc3 -> build/scripts-3.11
+[DEBUG]:        copying and adjusting /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/idle3 -> build/scripts-3.11
+[DEBUG]:        copying and adjusting /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/2to3 -> build/scripts-3.11
+[DEBUG]:        renaming build/scripts-3.11/pydoc3 to build/scripts-3.11/pydoc3.11
+[DEBUG]:        renaming build/scripts-3.11/idle3 to build/scripts-3.11/idle3.11
+[DEBUG]:        renaming build/scripts-3.11/2to3 to build/scripts-3.11/2to3-3.11
+[DEBUG]:        make: Leaving directory '/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build'
+[DEBUG]:   -> running cp /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python.exe /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3
+[INFO]:    <- directory context /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android
+[INFO]:    Building libffi for arm64-v8a
+[DEBUG]:   Create directory /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs
+[DEBUG]:   Create directory /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp
+[DEBUG]:   Create directory /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/arm64-v8a
+[INFO]:    -> directory context /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi
+[DEBUG]:   -> running autogen.sh
+[DEBUG]:        autoreconf: export WARNINGS=
+[DEBUG]:        autoreconf: Entering directory '.'
+[DEBUG]:        autoreconf: configure.ac: not using Gettext
+[DEBUG]:        autoreconf: running: aclocal -I m4
+[DEBUG]:        autoreconf: configure.ac: tracing
+[DEBUG]:        autoreconf: running: libtoolize --copy
+[DEBUG]:        libtoolize: putting auxiliary files in '.'.
+[DEBUG]:        libtoolize: copying file './ltmain.sh'
+[DEBUG]:        libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[DEBUG]:        libtoolize: copying file 'm4/libtool.m4'
+[DEBUG]:        libtoolize: copying file 'm4/ltoptions.m4'
+[DEBUG]:        libtoolize: copying file 'm4/ltsugar.m4'
+[DEBUG]:        libtoolize: copying file 'm4/ltversion.m4'
+[DEBUG]:        libtoolize: copying file 'm4/lt~obsolete.m4'
+[DEBUG]:        autoreconf: configure.ac: not using Intltool
+[DEBUG]:        autoreconf: configure.ac: not using Gtkdoc
+[DEBUG]:        autoreconf: running: aclocal -I m4
+[DEBUG]:        autoreconf: running: /usr/bin/autoconf
+[DEBUG]:        configure.ac:8: warning: The macro `AC_CANONICAL_SYSTEM' is obsolete.
+[DEBUG]:        configure.ac:8: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2081: AC_CANONICAL_SYSTEM is expanded from...
+[DEBUG]:        configure.ac:8: the top level
+[DEBUG]:        configure.ac:41: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+[DEBUG]:        configure.ac:41: You should run autoupdate.
+[DEBUG]:        m4/libtool.m4:99: AC_PROG_LIBTOOL is expanded from...
+[DEBUG]:        configure.ac:41: the top level
+[DEBUG]:        configure.ac:74: warning: The macro `AC_TRY_COMPILE' is obsolete.
+[DEBUG]:        configure.ac:74: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        acinclude.m4:3: AC_FUNC_MMAP_BLACKLIST is expanded from...
+[DEBUG]:        configure.ac:74: the top level
+[DEBUG]:        configure.ac:91: warning: The macro `AC_HEADER_STDC' is obsolete.
+[DEBUG]:        configure.ac:91: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+[DEBUG]:        configure.ac:91: the top level
+[DEBUG]:        configure.ac:118: warning: The macro `AC_TRY_COMPILE' is obsolete.
+[DEBUG]:        configure.ac:118: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        m4/asmcfi.m4:1: GCC_AS_CFI_PSEUDO_OP is expanded from...
+[DEBUG]:        configure.ac:118: the top level
+[DEBUG]:        configure.ac:122: warning: The macro `AC_TRY_LINK' is obsolete.
+[DEBUG]:        configure.ac:122: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        configure.ac:122: the top level
+[DEBUG]:        configure.ac:138: warning: The macro `AC_TRY_COMPILE' is obsolete.
+[DEBUG]:        configure.ac:138: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        configure.ac:138: the top level
+[DEBUG]:        configure.ac:185: warning: The macro `AC_TRY_COMPILE' is obsolete.
+[DEBUG]:        configure.ac:185: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        configure.ac:185: the top level
+[DEBUG]:        configure.ac:310: warning: The macro `AC_HELP_STRING' is obsolete.
+[DEBUG]:        configure.ac:310: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+[DEBUG]:        configure.ac:310: the top level
+[DEBUG]:        configure.ac:418: warning: The macro `AC_HELP_STRING' is obsolete.
+[DEBUG]:        configure.ac:418: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+[DEBUG]:        acinclude.m4:353: LIBFFI_ENABLE_SYMVERS is expanded from...
+[DEBUG]:        configure.ac:418: the top level
+[DEBUG]:        configure.ac:418: warning: The macro `AC_PROG_LD' is obsolete.
+[DEBUG]:        configure.ac:418: You should run autoupdate.
+[DEBUG]:        m4/libtool.m4:3341: AC_PROG_LD is expanded from...
+[DEBUG]:        acinclude.m4:251: LIBFFI_CHECK_LINKER_FEATURES is expanded from...
+[DEBUG]:        acinclude.m4:353: LIBFFI_ENABLE_SYMVERS is expanded from...
+[DEBUG]:        configure.ac:418: the top level
+[DEBUG]:        configure.ac:418: warning: The macro `AC_TRY_RUN' is obsolete.
+[DEBUG]:        configure.ac:418: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+[DEBUG]:        acinclude.m4:251: LIBFFI_CHECK_LINKER_FEATURES is expanded from...
+[DEBUG]:        acinclude.m4:353: LIBFFI_ENABLE_SYMVERS is expanded from...
+[DEBUG]:        configure.ac:418: the top level
+[DEBUG]:        configure.ac:418: warning: The macro `AC_TRY_LINK' is obsolete.
+[DEBUG]:        configure.ac:418: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+[DEBUG]:        acinclude.m4:353: LIBFFI_ENABLE_SYMVERS is expanded from...
+[DEBUG]:        configure.ac:418: the top level
+[DEBUG]:        autoreconf: running: /usr/bin/autoheader
+[DEBUG]:        autoreconf: running: automake --add-missing --copy --no-force
+[DEBUG]:        configure.ac:31: installing './compile'
+[DEBUG]:        configure.ac:19: installing './install-sh'
+[DEBUG]:        configure.ac:19: installing './missing'
+[DEBUG]:        Makefile.am: installing './depcomp'
+[DEBUG]:        doc/Makefile.am:3: installing 'doc/mdate-sh'
+[DEBUG]:        doc/Makefile.am:3: installing 'doc/texinfo.tex'
+[DEBUG]:        autoreconf: Leaving directory '.'
+[DEBUG]:   -> running autoreconf -vif
+[DEBUG]:        autoreconf: export WARNINGS=
+[DEBUG]:        autoreconf: Entering directory '.'
+[DEBUG]:        autoreconf: configure.ac: not using Gettext
+[DEBUG]:        autoreconf: running: aclocal --force -I m4
+[DEBUG]:        autoreconf: configure.ac: tracing
+[DEBUG]:        autoreconf: running: libtoolize --copy --force
+[DEBUG]:        libtoolize: putting auxiliary files in '.'.
+[DEBUG]:        libtoolize: copying file './ltmain.sh'
+[DEBUG]:        libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[DEBUG]:        libtoolize: copying file 'm4/libtool.m4'
+[DEBUG]:        libtoolize: copying file 'm4/ltoptions.m4'
+[DEBUG]:        libtoolize: copying file 'm4/ltsugar.m4'
+[DEBUG]:        libtoolize: copying file 'm4/ltversion.m4'
+[DEBUG]:        libtoolize: copying file 'm4/lt~obsolete.m4'
+[DEBUG]:        autoreconf: configure.ac: not using Intltool
+[DEBUG]:        autoreconf: configure.ac: not using Gtkdoc
+[DEBUG]:        autoreconf: running: aclocal --force -I m4
+[DEBUG]:        autoreconf: running: /usr/bin/autoconf --force
+[DEBUG]:        configure.ac:8: warning: The macro `AC_CANONICAL_SYSTEM' is obsolete.
+[DEBUG]:        configure.ac:8: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2081: AC_CANONICAL_SYSTEM is expanded from...
+[DEBUG]:        configure.ac:8: the top level
+[DEBUG]:        configure.ac:41: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+[DEBUG]:        configure.ac:41: You should run autoupdate.
+[DEBUG]:        m4/libtool.m4:99: AC_PROG_LIBTOOL is expanded from...
+[DEBUG]:        configure.ac:41: the top level
+[DEBUG]:        configure.ac:74: warning: The macro `AC_TRY_COMPILE' is obsolete.
+[DEBUG]:        configure.ac:74: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        acinclude.m4:3: AC_FUNC_MMAP_BLACKLIST is expanded from...
+[DEBUG]:        configure.ac:74: the top level
+[DEBUG]:        configure.ac:91: warning: The macro `AC_HEADER_STDC' is obsolete.
+[DEBUG]:        configure.ac:91: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+[DEBUG]:        configure.ac:91: the top level
+[DEBUG]:        configure.ac:118: warning: The macro `AC_TRY_COMPILE' is obsolete.
+[DEBUG]:        configure.ac:118: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        m4/asmcfi.m4:1: GCC_AS_CFI_PSEUDO_OP is expanded from...
+[DEBUG]:        configure.ac:118: the top level
+[DEBUG]:        configure.ac:122: warning: The macro `AC_TRY_LINK' is obsolete.
+[DEBUG]:        configure.ac:122: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        configure.ac:122: the top level
+[DEBUG]:        configure.ac:138: warning: The macro `AC_TRY_COMPILE' is obsolete.
+[DEBUG]:        configure.ac:138: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        configure.ac:138: the top level
+[DEBUG]:        configure.ac:185: warning: The macro `AC_TRY_COMPILE' is obsolete.
+[DEBUG]:        configure.ac:185: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[DEBUG]:        lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[DEBUG]:        ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[DEBUG]:        configure.ac:185: the top level
+[DEBUG]:        configure.ac:310: warning: The macro `AC_HELP_STRING' is obsolete.
+[DEBUG]:        configure.ac:310: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+[DEBUG]:        configure.ac:310: the top level
+[DEBUG]:        configure.ac:418: warning: The macro `AC_HELP_STRING' is obsolete.
+[DEBUG]:        configure.ac:418: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+[DEBUG]:        acinclude.m4:353: LIBFFI_ENABLE_SYMVERS is expanded from...
+[DEBUG]:        configure.ac:418: the top level
+[DEBUG]:        configure.ac:418: warning: The macro `AC_PROG_LD' is obsolete.
+[DEBUG]:        configure.ac:418: You should run autoupdate.
+[DEBUG]:        m4/libtool.m4:3341: AC_PROG_LD is expanded from...
+[DEBUG]:        acinclude.m4:251: LIBFFI_CHECK_LINKER_FEATURES is expanded from...
+[DEBUG]:        acinclude.m4:353: LIBFFI_ENABLE_SYMVERS is expanded from...
+[DEBUG]:        configure.ac:418: the top level
+[DEBUG]:        configure.ac:418: warning: The macro `AC_TRY_RUN' is obsolete.
+[DEBUG]:        configure.ac:418: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+[DEBUG]:        acinclude.m4:251: LIBFFI_CHECK_LINKER_FEATURES is expanded from...
+[DEBUG]:        acinclude.m4:353: LIBFFI_ENABLE_SYMVERS is expanded from...
+[DEBUG]:        configure.ac:418: the top level
+[DEBUG]:        configure.ac:418: warning: The macro `AC_TRY_LINK' is obsolete.
+[DEBUG]:        configure.ac:418: You should run autoupdate.
+[DEBUG]:        ./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+[DEBUG]:        acinclude.m4:353: LIBFFI_ENABLE_SYMVERS is expanded from...
+[DEBUG]:        configure.ac:418: the top level
+[DEBUG]:        autoreconf: running: /usr/bin/autoheader --force
+[DEBUG]:        autoreconf: running: automake --add-missing --copy --force-missing
+[DEBUG]:        configure.ac:31: installing './compile'
+[DEBUG]:        configure.ac:19: installing './missing'
+[DEBUG]:        Makefile.am: installing './depcomp'
+[DEBUG]:        autoreconf: Leaving directory '.'
+[DEBUG]:   -> running configure --host=aarch64-linux-android --prefix=/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi --disable-builddir --enable-shared
+[DEBUG]:        checking build system type... x86_64-pc-linux-gnu
+[DEBUG]:        checking host system type... aarch64-unknown-linux-android
+[DEBUG]:        checking target system type... aarch64-unknown-linux-android
+[DEBUG]:        checking for gsed... sed
+[DEBUG]:        checking for a BSD-compatible install... /usr/bin/install -c
+[DEBUG]:        checking whether build environment is sane... yes
+[DEBUG]:        checking for aarch64-linux-android-strip... /root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip --strip-unneeded
+[DEBUG]:        checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[DEBUG]:        checking for gawk... gawk
+[DEBUG]:        checking whether make -j8 sets $(MAKE)... yes
+[DEBUG]:        checking whether make -j8 supports nested variables... yes
+[DEBUG]:        checking for aarch64-linux-android-gcc... /usr/bin/ccache /root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target aarch64-linux-android21 -fomit-frame-pointer -march=armv8-a -fPIC
+[DEBUG]:        checking whether the C compiler works... no
+[DEBUG]:        configure: error: in `/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi':
+[DEBUG]:        configure: error: C compiler cannot create executables
+[DEBUG]:        See `config.log' for more details
+Exception in thread background thread for pid 28967:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/.local/lib/python3.10/site-packages/sh.py", line 1641, in wrap
+    fn(*rgs, **kwargs)
+  File "/root/.local/lib/python3.10/site-packages/sh.py", line 2569, in background_thread
+    handle_exit_code(exit_code)
+  File "/root/.local/lib/python3.10/site-packages/sh.py", line 2269, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/root/.local/lib/python3.10/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_77:
+
+  RAN: /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/configure --host=aarch64-linux-android --prefix=/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi --disable-builddir --enable-shared
+
+  STDOUT:
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... aarch64-unknown-linux-android
+checking target system type... aarch64-unknown-linux-android
+checking for gsed... sed
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for aarch64-linux-android-strip... /root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip --strip-unneeded
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make -j8 sets $(MAKE)... yes
+checking whether make -j8 supports nested variables... yes
+checking for aarch64-linux-android-gcc... /usr/bin/ccache /root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target aarch64-linux-android21 -fomit-frame-pointer -march=armv8-a -fPIC
+checking whether the C compiler works... no
+configure: error: in `/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+
+
+  STDERR:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 1256, in <module>
+    main()
+  File "/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android/pythonforandroid/entrypoints.py", line 18, in main
+    ToolchainCL()
+  File "/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 685, in __init__
+    getattr(self, command)(args)
+  File "/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 104, in wrapper_func
+    build_dist_from_args(ctx, dist, args)
+  File "/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 163, in build_dist_from_args
+    build_recipes(build_order, python_modules, ctx,
+  File "/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 504, in build_recipes
+    recipe.build_arch(arch)
+  File "/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android/pythonforandroid/recipes/libffi/__init__.py", line 30, in build_arch
+    shprint(sh.Command('./configure'),
+  File "/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/python-for-android/pythonforandroid/logger.py", line 167, in shprint
+    for line in output:
+  File "/root/.local/lib/python3.10/site-packages/sh.py", line 915, in next
+    self.wait()
+  File "/root/.local/lib/python3.10/site-packages/sh.py", line 845, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/root/.local/lib/python3.10/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_77:
+
+  RAN: /mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/configure --host=aarch64-linux-android --prefix=/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi --disable-builddir --enable-shared
+
+  STDOUT:
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... aarch64-unknown-linux-android
+checking target system type... aarch64-unknown-linux-android
+checking for gsed... sed
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for aarch64-linux-android-strip... /root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip --strip-unneeded
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make -j8 sets $(MAKE)... yes
+checking whether make -j8 supports nested variables... yes
+checking for aarch64-linux-android-gcc... /usr/bin/ccache /root/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target aarch64-linux-android21 -fomit-frame-pointer -march=armv8-a -fPIC
+checking whether the C compiler works... no
+configure: error: in `/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+
+
+  STDERR:
+
+# Command failed: ['/usr/bin/python3', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=myapp', '--bootstrap=sdl2', '--requirements=python3,kivy,kivymd,opencv-python,pyzbar', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=21', '--ignore-setup-py', '--debug']
+# ENVIRONMENT:
+#     SHELL = '/bin/bash'
+#     WSL_DISTRO_NAME = 'Ubuntu-22.04'
+#     NAME = 'BG-SQL'
+#     PWD = '/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy'
+#     LOGNAME = 'root'
+#     MOTD_SHOWN = 'update-motd'
+#     HOME = '/root'
+#     LANG = 'C.UTF-8'
+#     LS_COLORS = 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+#     LESSCLOSE = '/usr/bin/lesspipe %s %s'
+#     TERM = 'xterm-256color'
+#     LESSOPEN = '| /usr/bin/lesspipe %s'
+#     USER = 'root'
+#     SHLVL = '1'
+#     WSLENV = ''
+#     XDG_DATA_DIRS = '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+#     PATH = ('/root/.buildozer/android/platform/apache-ant-1.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program '
+ 'Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.3.24.0_x64__8wekyb3d8bbwe:/mnt/c/Program '
+ 'Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/NVIDIA GPU '
+ 'Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing '
+ 'Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Broadcom/Broadcom 802.11 '
+ 'Network '
+ 'Adapter:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program '
+ 'Files (x86)/NVIDIA '
+ 'Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program '
+ 'Files/Git/cmd:/mnt/c/Program '
+ 'Files/WireGuard/:/mnt/c/Users/BG/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Program '
+ 'Files/NVIDIA Corporation/Nsight Compute 2024.3.1/:/mnt/c/Program '
+ 'Files/NVIDIA Corporation/NVIDIA '
+ 'NvDLISR:/mnt/c/Users/BG/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/BG/AppData/Local/Programs/Microsoft '
+ 'VS Code/bin:/mnt/c/Program '
+ 'Files/Tesseract-OCR/:/mnt/c/Users/BG/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Program '
+ 'Files/OpenSSL-Win64/bin:/snap/bin')
+#     HOSTTYPE = 'x86_64'
+#     _ = '/usr/local/bin/buildozer'
+#     OLDPWD = '/root'
+#     PACKAGES_PATH = '/root/.buildozer/android/packages'
+#     ANDROIDSDK = '/root/.buildozer/android/platform/android-sdk'
+#     ANDROIDNDK = '/root/.buildozer/android/platform/android-ndk-r25b'
+#     ANDROIDAPI = '31'
+#     ANDROIDMINAPI = '21'
+#
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2
+root@BG-SQL:/mnt/c/Users/BG/APP/barcode_scanner/src/barcode_scanner/moj_projekt_kivy# sudo apt-get install build-essential autoconf automake libtool pkg-config
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+autoconf is already the newest version (2.71-2).
+automake is already the newest version (1:1.16.5-1.3).
+automake set to manually installed.
+build-essential is already the newest version (12.9ubuntu3).
+libtool is already the newest version (2.4.6-15build2).
+pkg-config is already the newest version (0.29.2-1ubuntu3).
+0 upgraded, 0 newly installed, 0 to remove and 7 not upgraded.
